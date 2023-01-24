@@ -2,5 +2,12 @@
 /* Your CSS Code here. */
 .holder{
 	display:flex;
-	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	gap:10px;
+	border:1px solid red;
+}
+.item{
+	padding:10px;
+	border:2px solid black;
 }
